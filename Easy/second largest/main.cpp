@@ -18,7 +18,7 @@ int secondLargest(vector<int> arr){
     return sLargest;
 }
 
-int secondSmallest(vector<int> arr){
+int secondSmallest(vector<int> arr) {
     int smallest = arr[0];
     int n= arr.size();
     for (int i =0; i < n; i++) {

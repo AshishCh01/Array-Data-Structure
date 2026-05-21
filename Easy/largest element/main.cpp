@@ -23,5 +23,5 @@ int main () {
     vector<int> arr = {1,5,2,3,9};
     cout << largestElement(arr)  << endl;
     largestEle(arr);
-    cout << secondLargest(arr);
+    return 0;
 }

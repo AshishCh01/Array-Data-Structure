@@ -10,7 +10,7 @@ int maxConsecutive(vector<int>& nums) {
             maxi = max(maxi, count);
         }
         else {
-            count =0;
+            count = 0;
         }
     }
     return maxi;

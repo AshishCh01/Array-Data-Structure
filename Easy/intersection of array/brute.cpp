@@ -2,7 +2,7 @@
 #include <set>
 #include <vector>
 using namespace std;
-vector < int > intersectionArray(vector<int> &A,int n, vector<int> &B, int m) {
+vector <int> intersectionArray(vector<int> &A,int n, vector<int> &B, int m) {
     vector<int> ans;
     int vis[m] = {0};
     for (int i=0; i<n; i++) {
